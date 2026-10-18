@@ -1,9 +1,9 @@
 ---
 name: pr-review
-description: In-depth pull request review — blast radius, user flows and journeys, code-quality lenses, PR-introduced vs pre-existing triage, optional end-to-end testing in a browser, and a fix-and-retest loop until no medium-or-higher bugs remain. Ends with a structured report and optional inline GitHub comments. Use when asked to "review this PR", "do an in-depth review", "check for regressions", or when given a PR URL, number or branch.
+description: In-depth frontend pull request review (web UI code: components, state, styling, browser E2E) — blast radius, user flows and journeys, code-quality lenses, PR-introduced vs pre-existing triage, optional end-to-end testing in a browser, and a fix-and-retest loop until no medium-or-higher bugs remain. Ends with a structured report and optional inline GitHub comments. Use when asked to "review this PR", "do an in-depth review", "check for regressions", or when given a PR URL, number or branch.
 ---
 
-# PR Review
+# PR Review (frontend code review)
 
 Args: PR URL / number / branch. None -> the PR for the current branch (`gh pr view`).
 Optional flags: `--fix` (your own PR: fix + retest loop), `--comment` (post inline comments), `--e2e` (force browser testing), `--quick` (skip E2E).

@@ -1,6 +1,6 @@
 # pr-review-skill
 
-An in-depth pull request review skill for [Claude Code](https://claude.com/claude-code). It goes beyond a diff read: it maps the blast radius of a change, walks the affected user journeys, applies a fixed set of code-review lenses, separates bugs the PR introduced from ones that already existed, optionally drives the app in a browser, and can fix and retest until no medium-or-higher issues remain.
+An in-depth **frontend** code review skill for pull requests, built for [Claude Code](https://claude.com/claude-code). It goes beyond a diff read: it maps the blast radius of a change, walks the affected user journeys, applies a fixed set of code-review lenses, separates bugs the PR introduced from ones that already existed, optionally drives the app in a browser, and can fix and retest until no medium-or-higher issues remain.
 
 ## What it does
 
